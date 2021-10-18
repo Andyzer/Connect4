@@ -5,5 +5,6 @@ package Connect4;
  * Die Farben sind Rot und Schwarz
  */
 public enum Connect4Piece {
+
     RED, BLACK
 }
