@@ -1,4 +1,4 @@
-package Connect4;
+package connect4;
 
 /**
  * The game has 42 pieces in total
