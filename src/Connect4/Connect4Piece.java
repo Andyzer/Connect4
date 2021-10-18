@@ -1,8 +1,8 @@
 package Connect4;
 
 /**
- * Das Spiel hat insgesamt 42 Spielfiguren und 2 Farben
- * Die Farben sind Rot und Schwarz
+ * The game has 42 pieces in total
+ * There are two colors for the players to choose from
  */
 public enum Connect4Piece {
 
