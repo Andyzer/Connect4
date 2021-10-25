@@ -1,6 +1,11 @@
 package connect4;
 
-public class Connect4LocalBoard {
+public interface Connect4LocalBoard extends Connect4 {
+    /**
+     *
+     */
+
+
 
 
 }

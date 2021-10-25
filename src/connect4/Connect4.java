@@ -15,7 +15,6 @@ public interface Connect4 {
 
     boolean set(Connect4Piece piece, Connect4BoardPosition position)
             throws StatusException, GameException, RowIsFullException;
-
 }
 
 
