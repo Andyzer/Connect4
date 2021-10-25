@@ -3,7 +3,19 @@ package connect4;
 public interface Connect4 {
 
     /**
-     * set a piece on the board
+     * WARNING THE FOLLOWING PROGRAM IS A TRAVESTY
+     * MISTAKES SHALL BE RECTIFIED UNTIL MEILENSTEIN 3
+     *
+     * Connect4 is a turn based game, players pick a color
+     * and take turns one after the other
+     * The game grid is 7x6 slots
+     * The players choose a row and the slots get filled
+     * Bottom to Top, first player to pick a color begins
+     *
+     *
+     * The winner is the first player that gets four pieces in a row
+     * Horizontally, vertically or diagonaly wins.
+     *
      *
      * @param piece    to be placed on board
      * @param position where the piece is to be positioned
