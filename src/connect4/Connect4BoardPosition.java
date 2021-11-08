@@ -1,11 +1,16 @@
 package connect4;
 
 public class Connect4BoardPosition {
-    static final int WIDTH = 7;
-    static final int HEIGHT = 6;
+    private final int x;
+    private final int y;
 
-    public Connect4Piece[][] grid = new Connect4Piece[WIDTH][HEIGHT];
+    public Connect4BoardPosition(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
 
-    int getWidth() {return WIDTH; }
-    int getHeight() {return HEIGHT; }
+    public int getX() { return x; }
+
+    public int getY() { return y; }
+
 }

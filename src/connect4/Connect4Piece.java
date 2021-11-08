@@ -5,6 +5,6 @@ package connect4;
  * There are two colors for the players to choose from
  */
 public enum Connect4Piece {
-
-    RED, BLACK
+    RED,
+    BLACK
 }
