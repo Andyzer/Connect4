@@ -1,4 +1,4 @@
-package connect4;
+package connect4main;
 
 public class Connect4BoardPosition {
     private final int x;
@@ -9,8 +9,12 @@ public class Connect4BoardPosition {
         this.y = y;
     }
 
-    public int getX() { return x; }
+    public int getX() {
+        return x;
+    }
 
-    public int getY() { return y; }
+    public int getY() {
+        return y;
+    }
 
 }

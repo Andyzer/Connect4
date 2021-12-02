@@ -1,4 +1,4 @@
-package connect4;
+package connect4main;
 
 public class PositionOutsideOfGamefieldException extends Exception {
     public PositionOutsideOfGamefieldException() { super(); }

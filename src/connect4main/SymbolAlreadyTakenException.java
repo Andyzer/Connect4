@@ -1,6 +1,9 @@
-package connect4;
+package connect4main;
 
 public class SymbolAlreadyTakenException extends Exception {
+    /**
+     *
+     */
     public SymbolAlreadyTakenException() {
         super();
     }

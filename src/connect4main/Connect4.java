@@ -1,10 +1,10 @@
-package connect4;
+package connect4main;
 
 public interface Connect4 {
 
     /**
      * WARNING THE FOLLOWING PROGRAM IS A TRAVESTY
-     * MISTAKES SHALL BE RECTIFIED UNTIL MEILENSTEIN 3
+     * MISTAKES SHALL BE RECTIFIED
      * <p>
      * Connect4 is a turn based game, players pick a color
      * and take turns one after the other
@@ -21,15 +21,15 @@ public interface Connect4 {
      * @return true if won,false otherwise
      * @throws GameException                       postion outside board
      * @throws StatusException                     not in status play
-     * @throws RowIsFullException                  when the Row is full...
      * @throws SymbolAlreadyTakenException         when its obvious
      * @throws PositionOutsideOfGamefieldException also obvious
      */
 
-    boolean set(Connect4Piece piece, Connect4BoardPosition position)
-            throws StatusException, GameException, RowIsFullException, PositionOutsideOfGamefieldException;
+    Connect4LocalBoard set(Connect4Piece piece, Connect4BoardPosition position)
+            throws StatusException, GameException, PositionOutsideOfGamefieldException;
 
-    Connect4Piece pick(Connect4Player player, Connect4Piece piece) throws SymbolAlreadyTakenException, StatusException, GameException;
+
+    Connect4Piece checkWin() ;
 
 }
 

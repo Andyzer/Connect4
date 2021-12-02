@@ -1,4 +1,4 @@
-package connect4;
+package connect4main;
 
 public class StatusException extends Exception{
     public StatusException() { super(); }

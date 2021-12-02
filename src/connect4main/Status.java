@@ -1,4 +1,4 @@
-package connect4;
+package connect4main;
 
 /**
  * Game starts, player one picks a color

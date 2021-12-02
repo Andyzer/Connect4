@@ -1,4 +1,4 @@
-package connect4;
+package connect4main;
 
 public class Connect4Player {
     private Connect4Piece piece;
@@ -8,9 +8,8 @@ public class Connect4Player {
         piece = p;
         name = n;
     }
-    public Connect4Player(String n) {
-        name = n;
-    }
+
+
 
     public Connect4Piece getPiece() {
         return piece;
